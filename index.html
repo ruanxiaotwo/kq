@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="content" style="">
+		<h2>城建课堂点名系统:</h2>
+		<p>
+			<span class="right">当前人数:</span>
+			<span class="left"><em id="personNum"></em>人</span>
+		</p>
+		<p>
+			<span class="right">输入抽点人数: </span>
+		    <span class="left"><input type="text" name="" id="num"></span>
+		</p>
+		<p><button id="startCheck">开始点名</button></p>
+	</div>
+	<div class="body">
+		<div class="body-left">
+			<h2 class="personName">上课点名咯~</h2>
+			<div class="personCheck">
+				<button class="green">来了</button>
+				<button class="red">没来</button>
+			</div>
+		</div>
+	
+		<div class="body-right">
+			<h3 class="forgive">当然是选择原谅TA们</h3>
+			<div class="person"></div>
+		</div>
+	</div>
+	<audio autoplay="autoplay"></audio>
+	<script src="js/index.js"></script>
+</body>
+</html>
